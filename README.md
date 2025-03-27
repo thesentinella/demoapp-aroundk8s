@@ -3,6 +3,8 @@
 Aplicación de demostración para desplegar en Kubernetes durante el workshop de **Portainer + Sidero Omni**.  
 Demo presentada en [AroundK8s](https://aroundk8s.com) el **26 de marzo de 2025**.  
 
+Descarga los slides del workshop [aquí](https://storage.googleapis.com/sentinella-assets/aroundk8s-portainer-talos.pdf)
+
 ## 📌 Descripción  
 
 Esta aplicación web sencilla, construida con **Flask (Python)**, se ejecuta en **Kubernetes** y está diseñada para demostrar despliegues gestionados con **Portainer** y **Sidero Omni**.  

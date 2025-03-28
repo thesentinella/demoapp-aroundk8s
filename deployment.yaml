@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-web-demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: k8s-web-demo
+  template:
+    metadata:
+      labels:
+        app: k8s-web-demo
+    spec:
+      containers:
+      - name: k8s-web-demo
+        image: galvaradosentinella/aroundk8s:latest
+        ports:
+        - containerPort: 5000

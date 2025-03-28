@@ -32,15 +32,10 @@ kubectl apply -f service.yaml
 ```
 
 ### 3️⃣ Acceder a la aplicación
-Si usas un servicio LoadBalancer, obtén la IP con:
-
+Usamos el port-forwarding
 ```sh
-kubectl get svc k8s-web-demo-service
+kubectl port-forward svc/k8s-web-demo-service 8080:80
 ```
 
-Luego, accede desde el navegador o con curl:
-
-```sh
-curl http://<EXTERNAL-IP>
-```
+Luego, accede desde el navegador: http://127.0.0.1:8080
 ### 📡 Presentación

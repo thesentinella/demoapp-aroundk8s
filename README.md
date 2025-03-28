@@ -39,3 +39,4 @@ kubectl port-forward svc/k8s-web-demo-service 8080:80
 
 Luego, accede desde el navegador: http://127.0.0.1:8080
 ### 📡 Presentación
+Los slides del workhop están disponibles [aquí](slides/aroundk8s-portainer-talos.pdf)

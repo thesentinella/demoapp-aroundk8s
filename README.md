@@ -13,7 +13,7 @@ Incluye:
 - Código fuente en **Python (Flask)**.  
 - `Dockerfile` para construir la imagen del contenedor.  
 - Manifiestos de **Kubernetes** (`Deployment`, `Service`).  
-- Configuración opcional para **Ingress**.  
+- Configuración de port-forwarding
 
 ## 🚀 Despliegue en Kubernetes  
 
